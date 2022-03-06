@@ -1,0 +1,51 @@
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: var(--shadow);
+	background-color: var(--clr-bg);
+	opacity: 1;
+	position: sticky;
+	top: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.nav {
+	max-width: 992px;
+	margin: 0 auto;
+}
+
+.nav__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav__list-item {
+	list-style-type: none;
+}
+
+.nav__list-link {
+	display: inline-block;
+	padding: 1rem;
+	font-weight: 500;
+	letter-spacing: var(--spacing);
+	text-transform: uppercase;
+	transition: var(--transition);
+	-webkit-transition: var(--transition);
+	-moz-transition: var(--transition);
+	-ms-transition: var(--transition);
+	-o-transition: var(--transition);
+}
+
+.nav__list-link:hover {
+	background-color: var(--clr-bg-light);
+}
+
+/* active link (react-router-dom) */
+.is-active {
+	background-color: var(--clr-bg-light);
+	font-weight: 600;
+}

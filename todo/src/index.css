@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Jost', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+:root {
+	--clr-bg: #222;
+	--clr-bg-light: #333;
+	--clr-text: #eee;
+	--transition: all 0s cubic-bezier(0.23, 1, 0.32, 1);
+	--spacing: 2px;
+	--shadow: 0px 1px 2px rgba(255, 255, 255, 0.1);
+	--clr-orange-dark: rgb(255, 149, 0);
+	--clr-orange-light: rgb(255, 159, 10);
+	--clr-orange-light-border: rgba(255, 157, 10, 0.411);
+	--clr-border: rgba(238, 238, 238, 0.155);
+	--radius: 3px;
+}

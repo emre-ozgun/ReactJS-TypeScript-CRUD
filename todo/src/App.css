@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--clr-bg);
+	color: var(--clr-text);
+}
+
+a {
+	text-decoration: none;
+	color: var(--clr-text);
+}
+
+.container {
+	max-width: 992px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.section {
+	width: 100%;
+	max-width: 336px;
+}
+
+.separator {
+	width: 100%;
+	height: 1px;
+	background-color: var(--clr-border);
+	margin-top: 0.125rem;
+}
+
+button:disabled,
+button[disabled] {
+	background-color: rgba(51, 51, 51, 0.438);
+	color: var(--clr-text);
+	cursor: not-allowed;
+}
